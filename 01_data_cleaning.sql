@@ -7,7 +7,7 @@ SELECT COUNT(*) FROM products;
 SELECT COUNT(*) FROM returns;
 SELECT COUNT(*) FROM sellers;
 
--- 1.1. Convert the format of Date Columns to DD/MM/YY HH:MM:SS 
+-- 2. Convert the format of Date Columns to DD/MM/YY HH:MM:SS 
 -- ORDER_ITEMS TABLE
 UPDATE order_items
 SET shipping_limit_date = STR_TO_DATE(shipping_limit_date, '%d/%m/%Y %H:%i:%s');
@@ -84,20 +84,20 @@ MODIFY COLUMN price DECIMAL(10,2);
 ALTER TABLE order_items
 MODIFY COLUMN freight_value DECIMAL(10,2);
 
--- 2. Check NULL values in ORDER table (will be used for analysis)
+-- 3. Check NULL values in ORDER table (will be used for analysis)
 SELECT COUNT(*),
 	SUM(customer_id IS NULL) AS missing_customer,
     SUM(order_purchase_timestamp IS NULL) AS misisng_purchase,
     SUM(order_status IS NULL) AS misisng_status
 FROM orders;
 
--- 2.1 Check NULL values in PRODUCTS table
+-- 3.1 Check NULL values in PRODUCTS table
 SELECT COUNT(*),
 	SUM(product_category_name IS NULL) AS missing_category,
     SUM(product_weight_g IS NULL) AS missing_weight
 FROM products;
 
--- 3. Checking of relationships / conenctions
+-- 4. Checking of relationships / connections
 SELECT *
 FROM orders o
 LEFT JOIN customers c
