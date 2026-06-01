@@ -72,7 +72,7 @@ After cleaning the data cleaning process, the dataset was standardized, validate
 - Foreign key relationships between tables were validated using `LEFT JOIN` and `IS NULL` checks. Core relationships (`customers → orders`, `orders → order_items`, `products → order_items`, `sellers → order_items`) were confirmed to be structurally intact.
 - Primary key uniqueness was verified for major entities (`customer_id`, `order_id`, `product_id`). No duplicate records were found.
 
-
+reference: [01_data_cleaning.sql](./01_data_cleaning.sql)
 
 ## Exploratory Data Analysis (EDA)
 
