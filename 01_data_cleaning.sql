@@ -128,7 +128,7 @@ LEFT JOIN sellers s
 	ON oi.seller_id = s.seller_id
 WHERE s.seller_id IS NULL;
 
--- 4. Duplicate checks
+-- 5. Duplicate checks
 -- To check if there are duplicate customers
 SELECT customer_id, COUNT(*) AS cnt
 FROM customers
