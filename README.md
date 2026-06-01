@@ -75,6 +75,46 @@ After cleaning the data cleaning process, the dataset was standardized, validate
 reference: [01_data_cleaning.sql](./01_data_cleaning.sql)
 
 ## Exploratory Data Analysis (EDA)
+1. Sales and Revenue Analysis
+   Q1: Which product categories generate the most revenue?
+3. Product Analysis
+4. Customer Analysis
+5. Seller Analysis
+6. Payment Analysis
+7. Return Analysis
+
+
+   Q1: Which product categories generate the most revenue?
+
+✔ (you already did this)
+
+Q2: Which individual products generate the most revenue?
+
+👉 (you still need to add this)
+
+🔵 3. Customer Analysis (NEXT)
+
+Now define 2 questions:
+
+🎯 Q1: How many orders does each customer place?
+identifies repeat customers
+🎯 Q2: Who are the top customers by spending?
+requires SUM(price) per customer
+🟣 4. Seller Analysis
+🎯 Q1: Which sellers generate the most revenue?
+SUM(price) by seller_id
+🎯 Q2: Which sellers handle the most orders?
+COUNT(order_id)
+🟠 5. Payment Analysis
+🎯 Q1: What is the most used payment method?
+COUNT(payment_type)
+🎯 Q2: What is the total payment value per method?
+SUM(payment_value)
+🔴 6. Return Analysis
+🎯 Q1: What is the return rate?
+returned orders / total orders
+🎯 Q2: Which products/categories are returned the most?
+JOIN returns + products
 
 ## Business Questions
 
