@@ -89,7 +89,7 @@ This analysis aims to provide actionable insights for an e-commerce business by 
 The exploratory data analysis (EDA) was performed using SQL to uncover trends, patterns, and key performance indicators across sales, customers, products, sellers, payments, and returns. The objective was to transform raw transactional data into actionable business insights.
 
 1. Sales and Revenue Analysis
-- Total Revenue: **335,073,864.00**
+- Total Revenue: **339,637,244.64** 
 - Revenue peaked in **November 2024**, indicating strong seasonal demand
 
 2. Product Analysis
