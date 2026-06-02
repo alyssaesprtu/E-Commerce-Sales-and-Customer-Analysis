@@ -2,7 +2,7 @@
 An end-to-end e-commerce analytics project using SQL, Python, and Power BI to analyze sales performance, customer behavior, seller efficiency, payment methods and product return trends. The project transforms raw transactional data into actionable insights through data cleaning, exploratory analysis, and interactive dashboard.
 
 ## Objectives
-The primary goals of this project are:
+The primary goals of this project is to:
 1. Analyze sales and revenue trends
 2. Identify top-performing products and sellers
 3. Understand customer purchasing behavior and retention patterns
@@ -65,7 +65,8 @@ Key relationships:
 5. Check for duplicates
 
 **Summary**
-After cleaning the data cleaning process, the dataset was standardized, validated, and prepared for analysis. The goal was to ensure data consistency, accuracy, and integrity across all tables before performing exploratory analysis.
+
+After the data cleaning process, the dataset was standardized, validated, and prepared for analysis. The goal was to ensure data consistency, accuracy, and integrity across all tables before performing exploratory analysis.
 - All tables were reviewes using row counts to confirm successful data loading.
 - Data fields were converted from text format into proper `DATETIME` format using `STR_TO_DATE`, and numeric fields such as `price` and `freight_value` were converted to  `DECIMAL(10,2)` for accurate financial analysis.
 - Missing values were identifies in key columns such as order and product attributes. These were analyzed to data completeness, with no critical transactional data removed.
@@ -75,46 +76,28 @@ After cleaning the data cleaning process, the dataset was standardized, validate
 reference: [01_data_cleaning.sql](./01_data_cleaning.sql)
 
 ## Exploratory Data Analysis (EDA)
+The exploratory data analysis was conducted using SQL to investigate sales performance, customer behavior, seller performance, payment preferences, and product return trends. 
+
 1. Sales and Revenue Analysis
-   Q1: Which product categories generate the most revenue?
-3. Product Analysis
-4. Customer Analysis
-5. Seller Analysis
-6. Payment Analysis
-7. Return Analysis
+- 🎯 What is the total revenue?
+- 🎯 What is the total revenue per year and per month?
+2. Product Analysis
+- 🎯 Which product categories generate the most revenue?
+- 🎯 Which individual products generate the most revenue?
+3. Customer Analysis
+- 🎯 How many orders does each customer place?
+- 🎯 Who are the top customers by spending?
+4. Seller Analysis
+- 🎯 Which sellers generate the most revenue?
+- 🎯 Which sellers handle the most orders?
+5. Payment Analysis
+- 🎯 What is the most used payment method?
+- 🎯 What is the total payment value per method?
+6. Return Analysis
+- 🎯 What is the return rate?
+- 🎯 Which product/categories are returned the most?
 
-
-   Q1: Which product categories generate the most revenue?
-
-✔ (you already did this)
-
-Q2: Which individual products generate the most revenue?
-
-👉 (you still need to add this)
-
-🔵 3. Customer Analysis (NEXT)
-
-Now define 2 questions:
-
-🎯 Q1: How many orders does each customer place?
-identifies repeat customers
-🎯 Q2: Who are the top customers by spending?
-requires SUM(price) per customer
-🟣 4. Seller Analysis
-🎯 Q1: Which sellers generate the most revenue?
-SUM(price) by seller_id
-🎯 Q2: Which sellers handle the most orders?
-COUNT(order_id)
-🟠 5. Payment Analysis
-🎯 Q1: What is the most used payment method?
-COUNT(payment_type)
-🎯 Q2: What is the total payment value per method?
-SUM(payment_value)
-🔴 6. Return Analysis
-🎯 Q1: What is the return rate?
-returned orders / total orders
-🎯 Q2: Which products/categories are returned the most?
-JOIN returns + products
+reference:
 
 ## Business Questions
 
