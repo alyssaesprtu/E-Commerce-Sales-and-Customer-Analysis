@@ -75,6 +75,16 @@ After the data cleaning process, the dataset was standardized, validated, and pr
 
 📄 Reference: [01_data_cleaning.sql](./01_data_cleaning.sql)
 
+## Business Questions
+This analysis aims to provide actionable insights for an e-commerce business by answering the following questions:
+
+- What are the overall sales and revenue trends?
+- Which products and categories generate the most revenue?
+- Who are the most valuable customers?
+- Which sellers contribute the most revenue and order volume?
+- What payment methods are most commonly used?
+- What is the overall return rate and which products are most returned?
+
 ## Exploratory Data Analysis (EDA)
 The exploratory data analysis (EDA) was performed using SQL to uncover trends, patterns, and key performance indicators across sales, customers, products, sellers, payments, and returns. The objective was to transform raw transactional data into actionable business insights.
 
@@ -103,10 +113,6 @@ The exploratory data analysis (EDA) was performed using SQL to uncover trends, p
 - The most returned category is **Fashion Men** with **272 returns**
 
 📄 Reference: [02_eda.sql](./02_eda.sql)
-
-## Business Questions
-This analysis aims to provide actionable insights for an e-commerce business by answering the following questions:
-
 
 ## Dashboard
 
