@@ -73,33 +73,40 @@ After the data cleaning process, the dataset was standardized, validated, and pr
 - Foreign key relationships between tables were validated using `LEFT JOIN` and `IS NULL` checks. Core relationships (`customers → orders`, `orders → order_items`, `products → order_items`, `sellers → order_items`) were confirmed to be structurally intact.
 - Primary key uniqueness was verified for major entities (`customer_id`, `order_id`, `product_id`). No duplicate records were found.
 
-reference: [01_data_cleaning.sql](./01_data_cleaning.sql)
+📄 Reference: [01_data_cleaning.sql](./01_data_cleaning.sql)
 
 ## Exploratory Data Analysis (EDA)
-The exploratory data analysis was conducted using SQL to investigate sales performance, customer behavior, seller performance, payment preferences, and product return trends. 
+The exploratory data analysis (EDA) was performed using SQL to uncover trends, patterns, and key performance indicators across sales, customers, products, sellers, payments, and returns. The objective was to transform raw transactional data into actionable business insights.
 
 1. Sales and Revenue Analysis
-- 🎯 What is the total revenue?
-- 🎯 What is the total revenue per year and per month?
-2. Product Analysis
-- 🎯 Which product categories generate the most revenue?
-- 🎯 Which individual products generate the most revenue?
-3. Customer Analysis
-- 🎯 How many orders does each customer place?
-- 🎯 Who are the top customers by spending?
-4. Seller Analysis
-- 🎯 Which sellers generate the most revenue?
-- 🎯 Which sellers handle the most orders?
-5. Payment Analysis
-- 🎯 What is the most used payment method?
-- 🎯 What is the total payment value per method?
-6. Return Analysis
-- 🎯 What is the return rate?
-- 🎯 Which product/categories are returned the most?
+- Total Revenue: **335,073,864.00**
+- Revenue peaked in **November 2024**, indicating strong seasonal demand
 
-reference: [02_eda.sql](./02_eda.sql)
+2. Product Analysis
+- **Laptops** generated the highest revenue of **81,855,288.00**
+- `Laptops` were the top-performing product category in terms of revenue and sales
+
+3. Customer Analysis
+- The top customer placed **12 orders**
+- Highest spending customer: `5e9d1b3ab8f4e3cd5d48c6a3c30b53e3` with **571,366.00** in total spending
+
+4. Seller Analysis
+- The top-performing seller generated **999,903.00** in total revenue
+- Seller `665fb6f1c7333c4a4f89778e9c9d6ade` handled **45 order items**, making them the most active seller by volume
+
+5. Payment Analysis
+- **UPI** is the most used payment method
+- UPI also generated the highest total transaction value of **119,671,078.74**
+
+6. Return Analysis
+- A total of **16,091 orders** resulted in **1,891 returns**, giving a return rate of **11.75%**
+- The most returned category is **Fashion Men** with **272 returns**
+
+📄 Reference: [02_eda.sql](./02_eda.sql)
 
 ## Business Questions
+This analysis aims to provide actionable insights for an e-commerce business by answering the following questions:
+
 
 ## Dashboard
 
