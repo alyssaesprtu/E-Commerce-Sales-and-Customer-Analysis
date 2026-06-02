@@ -97,7 +97,7 @@ The exploratory data analysis was conducted using SQL to investigate sales perfo
 - 🎯 What is the return rate?
 - 🎯 Which product/categories are returned the most?
 
-reference:
+reference: [02_eda.sql](./02_eda.sql)
 
 ## Business Questions
 
