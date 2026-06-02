@@ -27,12 +27,7 @@ source: https://www.kaggle.com/datasets/josephbenofficial/shopin?resource=downlo
 |---|---|
 |Excel | Initial data preparation |
 |MySQL | Data storage and querying |
-
-- Python
-- Pandas
-- Matplotlib / Seaborn
-- Power BI
-- Jupyter Notebook
+|Power BI | Data visualization |
 
 ## Database Schema / ERD
 <img width="1315" height="960" alt="database-schema" src="https://github.com/user-attachments/assets/e29aa52b-75dc-4b59-a03d-28d3324f9847" />
