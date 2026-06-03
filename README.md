@@ -92,7 +92,7 @@ EDA was performed using SQL to uncover patterns in revenue, customers, products,
 
 📄 SQL Script: [02_eda.sql](./02_eda.sql)
 
-## Dashboard
+## 📈 Dashboard
 <img width="1166" height="662" alt="image" src="https://github.com/user-attachments/assets/a200889c-fa0e-456e-8baa-c61c185b8ed7" />
 
 An interactive Power BI dashboard was built to visualize:
@@ -113,4 +113,5 @@ An interactive Power BI dashboard was built to visualize:
 - **UPI dominates payment behavior**, reflecting strong adoption of digital-first payment systems.
 - A return rate of **11.75%** highlights potential inefficiencies in product fit/description, especially in fashion categories.
 
+> Hi, I'm Alyssa, I love working with data. Let's connect!
 > Contact: https://www.linkedin.com/in/alyssaesprtu/
