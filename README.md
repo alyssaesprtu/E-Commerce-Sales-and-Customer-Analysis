@@ -112,3 +112,5 @@ An interactive Power BI dashboard was built to visualize:
 - Sales are geographically concentrated in a few key states, suggesting opportunity for **regional expansion and diversification**.
 - **UPI dominates payment behavior**, reflecting strong adoption of digital-first payment systems.
 - A return rate of **11.75%** highlights potential inefficiencies in product fit/description, especially in fashion categories.
+
+> Made by @alyssaesprtu
