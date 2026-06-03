@@ -105,7 +105,7 @@ An interactive Power BI dashboard was built to visualize:
 
 📊 Dashboard File: [03_dashboard.pbix](./03_dashboard.pbix)
 
-## Key Business Insights
+## 🔍 Key Business Insights
 - The business operates on a **high-value transaction model**, with an AOV of **$21.11K**, meaning revenue is driven by fewer but significantly larger purchases.
 - Strong seasonality is observed, with peak revenue in **November–December**, highlighting opportunities for targeted promotions and inventory planning.
 - Revenue is heavily concentrated in **high-value electronics such as laptops**, indicating strong demand for premium categories.
