@@ -17,6 +17,7 @@ This project aims to simulate a real-world-e-commerce analytics workflow by tran
 
 ## 📂 Datasets Overview
 Source: https://www.kaggle.com/datasets/josephbenofficial/shopin?resource=download
+
 The dataset contains relational e-commerce transactions across multiple tables.
 
 | Table | Description |
