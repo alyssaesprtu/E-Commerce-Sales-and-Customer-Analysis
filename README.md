@@ -112,6 +112,8 @@ The exploratory data analysis (EDA) was performed using SQL to uncover trends, p
 ## Dashboard
 <img width="1166" height="662" alt="image" src="https://github.com/user-attachments/assets/a200889c-fa0e-456e-8baa-c61c185b8ed7" />
 
+📄 Reference: [03_dashboard.pbix](./03_dashboard.pbix)
+
 ## Insights and Recommendations
 
 ## Future Improvements
