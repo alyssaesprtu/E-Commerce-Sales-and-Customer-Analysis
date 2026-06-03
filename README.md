@@ -16,8 +16,6 @@ This project aims to simulate a real-world-e-commerce analytics workflow by tran
 6. Build an **interactive dashboard for business decision-making**
 
 ## 📂 Datasets Overview
-Source: https://www.kaggle.com/datasets/josephbenofficial/shopin?resource=download
-
 The dataset contains relational e-commerce transactions across multiple tables.
 
 | Table | Description |
@@ -29,6 +27,8 @@ The dataset contains relational e-commerce transactions across multiple tables.
 |products | Product catalog information |
 |returns | Returned orders and return reasons |
 |sellers | Seller information |
+
+Source: https://www.kaggle.com/datasets/josephbenofficial/shopin?resource=download
 
 ## 🗺️ Database Schema / ERD
 <img width="1315" height="960" alt="database-schema" src="https://github.com/user-attachments/assets/e29aa52b-75dc-4b59-a03d-28d3324f9847" />
