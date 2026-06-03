@@ -1,4 +1,4 @@
-# E-Commerce-Sales-and-Customer-Analytics
+# E-Commerce-Sales-and-Customer-Analysis
 An end-to-end e-commerce analytics project using SQL, Python, and Power BI to analyze sales performance, customer behavior, seller efficiency, payment methods and product return trends. The project transforms raw transactional data into actionable insights through data cleaning, exploratory analysis, and interactive dashboard.
 
 ## Objectives
@@ -110,6 +110,7 @@ The exploratory data analysis (EDA) was performed using SQL to uncover trends, p
 📄 Reference: [02_eda.sql](./02_eda.sql)
 
 ## Dashboard
+<img width="1166" height="662" alt="image" src="https://github.com/user-attachments/assets/a200889c-fa0e-456e-8baa-c61c185b8ed7" />
 
 ## Insights and Recommendations
 
