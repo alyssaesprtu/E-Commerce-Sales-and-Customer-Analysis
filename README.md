@@ -114,6 +114,10 @@ The exploratory data analysis (EDA) was performed using SQL to uncover trends, p
 
 📄 Reference: [03_dashboard.pbix](./03_dashboard.pbix)
 
-## Insights and Recommendations
-
-## Future Improvements
+## Key Insights
+- The business generated $339.64M in total revenue from 16.09K orders, resulting in an average order value of $21.11K. This indicates strong revenue generation per transaction.
+- Revenue remained relatively stable throughout most of the year before experiencing significant growth in November and December. This suggests increased customer demand during the year-end period.
+= Laptops were the top-performing product category, generating approximately $82M in revenue. Jewellery and Mobile products also contributed significantly to overall sales, highlighting strong demand for technology and premium product categories.
+- Maharashtra (MH) recorded the highest number of orders, followed by Karnataka (KA) and Delhi (DL). These states represent the company's strongest markets and contribute a significant share of total order volume.
+- UPI was the most preferred payment method, generating the highest revenue among all payment options. This indicates strong customer adoption of digital payment channels.
+- The return rate was 11.75%, indicating that more than one in ten orders resulted in a return. Further investigation into return reasons and product categories may help reduce return-related costs and improve customer satisfaction.
