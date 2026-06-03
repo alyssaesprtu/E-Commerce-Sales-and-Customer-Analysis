@@ -2,9 +2,9 @@
 An end-to-end data analytics project that explores **sales performance, customer behavior, product trends, seller efficiency, payment preferences, and return patterns** in an e-commerce business.
 
 ## 🧰 Tools and Technologies
-- 'Excel': Initial data inspection and formatting
-- 'SQL': Data cleaning, transformation, and analysis
-- 'Power BI': Interactive dashboard and visualization
+- `Excel`: Initial data inspection and formatting
+- `SQL`: Data cleaning, transformation, and analysis
+- `Power BI`: Interactive dashboard and visualization
 
 ## 🎯 Project Objectives
 This project aims to simulate a real-world-e-commerce analytics workflow by transforming raw transactional data into business insights. The key objectives are to:
