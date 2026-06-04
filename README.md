@@ -68,7 +68,7 @@ EDA was performed using SQL to uncover patterns in revenue, customers, products,
 2. Product Performance
 - Top category: **Laptops (~$82M revenue)**
 - Srong performance from **Jewellery** and **Mobile** categories
-- Indicates dominance of **high-value consumer electrinics and premium goods**
+- Indicates dominance of **high-value consumer electronics and premium goods**
 
 3. Customer Behavior
 - Top customer placed **12 orders**
@@ -100,7 +100,6 @@ An interactive Power BI dashboard was built to visualize:
 - Revenue trends over time
 - Product category performance
 - Customer segmentation
-- Seller contribution
 - Payment method distibution
 - Return analysis
 
