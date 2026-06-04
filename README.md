@@ -66,7 +66,7 @@ EDA was performed using SQL to uncover patterns in revenue, customers, products,
 - Revenue showed stability across most months with **significant spike in November-December**, indicating strong seasonal demand
 
 2. Product Performance
-- Top category: **Laptopns (~$82M revenue)**
+- Top category: **Laptops (~$82M revenue)**
 - Srong performance from **Jewellery** and **Mobile** categories
 - Indicates dominance of **high-value consumer electrinics and premium goods**
 
