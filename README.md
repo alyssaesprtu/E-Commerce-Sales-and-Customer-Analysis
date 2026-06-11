@@ -113,5 +113,8 @@ An interactive Power BI dashboard was built to visualize:
 - **UPI dominates payment behavior**, reflecting strong adoption of digital-first payment systems.
 - A return rate of **11.75%** highlights potential inefficiencies in product fit/description, especially in fashion categories.
 
-> Hi, I'm Alyssa, I love working with data. Let's connect!
-> Contact: https://www.linkedin.com/in/alyssaesprtu/
+> 👋 About Me
+> 
+> Hi, I'm Alyssa, an aspiring Data Analyst passionate about transforming data into actionable insights.
+>
+> 🔗 LinkedIn: linkedin.com/in/alyssaesprtu
