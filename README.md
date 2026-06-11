@@ -50,8 +50,8 @@ Key relationships:
 
 ## 🧹 Data Cleaning
 1. Data audit across all tables using row counts
-2. Conversion of date fields using 'STR_TO_DATE'
-3. Standardization of numeric fields using 'DECIMAL(10,2)
+2. Conversion of date fields using `STR_TO_DATE`
+3. Standardization of numeric fields using `DECIMAL(10,2)`
 4. Missing value handling across key transactional attributes
 5. Relationship validation using LEFT JOIN and NULL checks
 6. Duplicate detection across primary keys
